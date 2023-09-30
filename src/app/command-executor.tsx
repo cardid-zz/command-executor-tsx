@@ -60,7 +60,7 @@ class CommandExecutorImpl implements CommandExecutor {
 }
 
 // @ts-ignore
-export default async function myMainDude() {
+export default async function commandExecutor() {
     const httpService = new HttpServiceImpl();
     const executor = new CommandExecutorImpl(httpService);
 
